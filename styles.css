@@ -1,0 +1,9 @@
+h1 {
+  text-align: center;
+}
+#my-text{
+  padding: 30px;
+  margin: 20px;
+  display: block;
+  justify-content: center;
+}
