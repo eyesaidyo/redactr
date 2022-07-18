@@ -7,15 +7,16 @@
   </head>
   <body>
     <h1>REDACTR APP</h1>
-    <input type="text" id="my-text" placeholder="your text here"/>
-   
-    <br>
-    <div>
+    <div class="center"></div>
+    <form id="info">
+      <input type="text" id="my-text" placeholder="your text here"/>
       <input type="text" placeholder="word to redact" id="redacted-word">
       <input type="text" placeholder="replacement text (optional)" id="replacement-text">
       <button id="submit-text">redact now</button>
+    </form>
+
     </div>
-    <div class="res"></div>
+    <div class="res center"></div>
 
 
     <script src="app.js"></script>
